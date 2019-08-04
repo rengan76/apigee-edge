@@ -1,0 +1,55 @@
+{
+    "name": "apigee/edge",
+    "type": "library",
+    "description": "Apigee Edge API is a set of objects that communicate with Apigee's Edge management server via REST calls to manage developers, apps, and other entities.",
+    "keywords": [
+        "http",
+        "rest",
+        "web service",
+        "curl"
+    ],
+    "homepage": "http://github.com/apigee/edge-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Johnson",
+            "email": "djohnson@apigee.com",
+            "homepage": "http://apigee.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Brian Hasselbeck",
+            "email": "hasselbeck.brian@gmail.com",
+            "homepage": "http://brianhasselbeck.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Isaias Arellano",
+            "email": "isaias.arellano.delgado@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Stephen Gilson",
+            "email": "sgilson@apigee.com",
+            "homepage": "http://apigee.com",
+            "role": "Documentation"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzle/guzzle": ">=3.7",
+        "psr/log": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "symfony/yaml": ">=2.1"
+    },
+    "suggest": {
+        "apigee/apigee-client-php" : "The new, actively maintained and supported version of this library."
+    },
+    "autoload": {
+        "psr-0": {
+            "Apigee": "./"
+        }
+    }
+}
